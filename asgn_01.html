@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 01</title>
+<script>
+
+	function car(make, model, year) {
+		this.make = make;
+		this.model = model;
+		this.year = year;
+
+		this.print = function() {
+			document.write(this.make + ", " + this.model + ", " + this.year + "<br>");
+		}
+	}
+
+	var a = new car("Maruti","Alto",2009);
+	var b = new car("Honda", "Civic", 2000);
+	a.print();
+	b.print();
+</script>
+</head>
+<body>
+</body>
+</html>
